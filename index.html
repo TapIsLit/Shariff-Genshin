@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avalon Pilot Service</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Avalon Pilot Service</h1>
+  <p>Genshin Impact Services</p>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#info">Info</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#status">Status</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Welcome</h2>
+  <p>Fast, safe and reliable piloting services.</p>
+
+  <a class="btn" href="https://discord.gg/YOURSERVER" target="_blank">Order via Discord</a>
+  <a class="btn" href="https://x.com/YOURHANDLE" target="_blank">Order via X</a>
+</section>
+
+<section id="info">
+  <h2>Price List & Terms</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Exploration</h3>
+      <p>Mondstadt: $8<br>Liyue: $10<br>Inazuma: $5<br>Fontaine: $30</p>
+    </div>
+
+    <div class="card">
+      <h3>Oculi</h3>
+      <p>Anemoculus: $3<br>Geoculus: $7<br>Dendroculus: $20</p>
+    </div>
+
+    <div class="card">
+      <h3>Quests</h3>
+      <p>Story: $1<br>World: $5<br>Archon: $2</p>
+    </div>
+  </div>
+
+  <p><b>Terms:</b> Some fee applies if already started.</p>
+</section>
+
+<section id="reviews">
+  <h2>Reviews</h2>
+
+  <div class="grid">
+    <div class="card">⭐⭐⭐⭐⭐<br>"Fast & trusted!"</div>
+    <div class="card">⭐⭐⭐⭐⭐<br>"Amazing service"</div>
+    <div class="card">⭐⭐⭐⭐⭐<br>"Will buy again"</div>
+  </div>
+</section>
+
+<section id="status">
+  <h2>Your Service Status</h2>
+
+  <div class="card">
+    <input type="text" id="orderId" placeholder="Enter Order ID">
+    <button class="btn" onclick="checkStatus()">Check</button>
+    <p id="result"></p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Avalon Pilot Service</p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
